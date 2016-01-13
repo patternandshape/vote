@@ -1,24 +1,36 @@
 img {
-  height: 180px;
-  width: 180px;
-  border-radius: 50%;
-  margin-left: 26%;
+  height: 30%;
+  width: 30%;
+  margin-left: 32%;
 }
 
-h3, h1 {
-  text-align: center;
-  padding-bottom: 20px;
+#over18 {
+  background-color: #1a8cff;
 }
-h1{
-  margin-top: 80px;
+
+#under18 {
+  background-color: #b30000;
+
 }
+#under18 img {
+  margin-left: 37%;
+}
+
+.col-sm-4:nth-child(4) {
+  margin-top: 6%;
+  margin-bottom: 10%;
+}
+
+h1 {
+  margin-left: 10%;
+}
+
 .btn {
   margin-left: 37%;
-  padding: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
-.jumbotron {
-  height: 400px;
-  background-color: #e8a645;
-  color: #FFF;
+
+.jumbotron h1 {
+  color: #ddd;
+  margin-top: 0;
 }
