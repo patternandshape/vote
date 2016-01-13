@@ -6,10 +6,12 @@ img {
 
 #over18 {
   background-color: #1a8cff;
+  display: none;
 }
 
 #under18 {
   background-color: #b30000;
+  display: none;
 
 }
 #under18 img {
