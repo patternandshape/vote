@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Animals!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Choose an Animal</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Elephant</h3>
+          <img src="img/elephant.jpg" alt="Elephant"/>
+        </div>
+        <div class="col-sm-4">
+          <h3>Panda</h3>
+          <img src="img/panda.jpg" alt="Panda"/>
+        </div>
+        <div class="col-sm-4">
+          <h3>Capybara</h3>
+          <img src="img/capybara.jpg" alt="Capybara"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <button type="button" onclick="location.href='https://en.wikipedia.org/wiki/Elephant';" class="btn btn-primary elephant-a" id="elephant-btn">Learn More</button>
+        </div>
+        <div class="col-sm-4">
+          <button type="button" onclick="location.href='https://en.wikipedia.org/wiki/Giant_panda';" class="btn btn-warning" id="panda-btn">Learn More</button>
+        </div>
+        <div class="col-sm-4">
+          <button type="button" onclick="location.href='https://en.wikipedia.org/wiki/Capybara';" class="btn btn-danger" id="capybara-btn">Learn More</button>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
